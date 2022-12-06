@@ -1,12 +1,12 @@
  header{
    background: #818181;
    padding: 10px 0;
-
  }
+
  .caixa{
    position: relative;
    margin: 0 auto;
-   width: 1750px
+   width: 1360px
  }
 
 body{
@@ -28,6 +28,16 @@ nav li{
   display: inline;
   margin: 0 0 0 15px
 }
+
+nav a:hover {
+color: Red;
+text-decoration: underline;
+}
+
+nav a:active{
+color: black;
+}
+
 nav a{
   text-transform: uppercase;
   font-weight: bold;
@@ -38,9 +48,11 @@ nav a{
 img{
 width: 300px
 }
+
 .logo{
   width: 200px
 }
+
 .personagens {
   display: flex;
   display: flow-root;

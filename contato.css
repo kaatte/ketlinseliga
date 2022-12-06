@@ -6,7 +6,7 @@ header{
 .caixa{
   position: relative;
   margin: 0 auto;
-  width: 1360px
+  width: 1360px;
 }
 
 body{
@@ -15,7 +15,7 @@ background-color: black;
 }
 
 ul{
-  padding-right: 100px;
+padding-right: 100px;
 
 }
 
@@ -46,34 +46,40 @@ nav a{
  text-decoration: none;
  color: #000000;
 }
+
 img{
 width: 300px
 }
 
 .logo{
- width: 200px
+  width: 200px
 }
 
-p{
-  font-size: 25px;
-   color: #f6f6f6;
-}
-
-h1{
-  color: #b90504;
-}
-
-.resumo{
-  width: 100%;
-
-}
-
-.resumoo {
-font-size: 25px;
+.contato {
+color: white;
+font-size: 24px;
 font-weight: bold;
+padding-left: 75px;
+padding-top: 4px;
 }
 
-.stranger {
+
+.contatoo {
+  text-transform: uppercase;
   font-weight: bold;
-font-size: 25px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  padding-left: 80px;
+  padding-top: 4px;
+}
+
+
+.contatooo {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  padding-left: 80px;
+  padding-top: 20px;
 }
